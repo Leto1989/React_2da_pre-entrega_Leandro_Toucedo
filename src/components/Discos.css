@@ -1,0 +1,25 @@
+.lista-discos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .disco-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .disco-item h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .disco-item p {
+    margin: 5px 0;
+  }
