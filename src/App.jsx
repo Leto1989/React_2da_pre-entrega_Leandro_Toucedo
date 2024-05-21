@@ -5,6 +5,8 @@ import Discos from './components/Discos';
 import DetalleProducto from './components/DetalleProducto';
 import Generos from './components/Generos';
 import ListaGeneros from './components/ListaGeneros';
+import Carrito from './components/Carrito';
+import { CarritoProvider } from './components/CarritoContext';
 import './App.css';
 
 function App() {
@@ -12,21 +14,24 @@ function App() {
 
   return (
     <>
-       <Router>
-      <div className='app-container'>
+       <CarritoProvider>
+          <Router>
+            <div className='app-container'>
       
-        <Navbar />
-        <div className="main-content">
-        <h1> Tienda de discos </h1>
-          <Routes>
-            <Route path="/" element={<Discos />} />
-            <Route path="/producto/:id" element={<DetalleProducto />} />
-            <Route path="/generos" element={<ListaGeneros />} />
-            <Route path="/genero/:genero" element={<Generos />} />
-          </Routes>
-        </div>
-      </div>
-    </Router>
+              <Navbar />
+              <div className="main-content">
+                <h1> Tienda de discos </h1>
+                <Routes>
+                 <Route path="/" element={<Discos />} />
+                  <Route path="/producto/:id" element={<DetalleProducto />} />
+                  <Route path="/generos" element={<ListaGeneros />} />
+                  <Route path="/genero/:genero" element={<Generos />} />
+                  <Route path="/carrito" element={<Carrito />} />
+                </Routes>
+              </div>
+            </div>
+          </Router>
+       </CarritoProvider>
     </>
   )
 }

@@ -3,6 +3,7 @@ import {useParams} from 'react-router-dom';
 import './DetalleProducto.css';
 import '../data/arrayDiscos';
 import arrayDiscos from '../data/arrayDiscos';
+import {CarritoProvider,usarCarrito } from './CarritoContext';
 
 const mayusculaInicial = (string) => {
     return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
@@ -13,6 +14,7 @@ const mayusculaInicial = (string) => {
 
 export default function DetalleProducto () {
    const {id} = useParams();
+   const {agregarAlCarrito} = usarCarrito();
    const disco = arrayDiscos.find(disco => disco.id.toString() === id);
 
    if(!disco){
@@ -20,8 +22,8 @@ export default function DetalleProducto () {
    }
 
    const handleAddToCart = () => {
-    
-    console.log(`${disco.nombre} ha sido agregado al carrito.`);
+    agregarAlCarrito(disco);
+    alert(`${disco.nombre} ha sido agregado al carrito.`);
   };
 
    return (
