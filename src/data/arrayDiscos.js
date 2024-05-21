@@ -5,32 +5,32 @@ const arrayDiscos = [
         nombre: 'Sinfonía No. 9',
         artista: 'Ludwig Van Beethoven',
         lanzamiento: '1951',
-        genero: 'clasica',
-        pais: 'alemania'
+        genero: 'Clásica',
+        pais: 'Alemania'
     },
     {
         id: '2',
         nombre: 'A banda do Zé Pretinho',
         artista: 'Jorge Ben Jor',
         lanzamiento: '1978',
-        genero: 'samba',
-        pais: 'brasil'
+        genero: 'Samba',
+        pais: 'Brasil'
     },
     {
         id: '3',
         nombre: 'Joao Gilberto',
         artista: 'Joao Gilberto',
         lanzamiento: '1973',
-        genero: 'bossa-nova',
-        pais: 'brasil'
+        genero: 'Bossa-nova',
+        pais: 'Brasil'
     },
     {
         id: '4',
         nombre: 'Os Afro-Sambas',
         artista: 'Baden Powell',
         lanzamiento: '2005',
-        genero: 'samba',
-        pais: 'brasil'
+        genero: 'Samba',
+        pais: 'Brasil'
     },
     {
         id: '5',
@@ -38,15 +38,15 @@ const arrayDiscos = [
         artista: 'Fito Paez',
         lanzamiento: '1992',
         genero: 'rock',
-        pais: 'argentina'
+        pais: 'Argentina'
     },
     {
         id: '6',
         nombre: 'Wagner:Götterdämerung',
         artista: 'Richard Wagner',
         lanzamiento: '2013',
-        genero: 'opera',
-        pais: 'alemania'
+        genero: 'Clásica',
+        pais: 'Alemania'
     },
 
     {
@@ -62,7 +62,7 @@ const arrayDiscos = [
         nombre: 'Giros',
         artista: 'Fito Paez',
         lanzamiento: '1985',
-        genero: 'Rock',
+        genero: 'rock',
         pais: 'argentina'
     },
     {
@@ -625,6 +625,239 @@ const arrayDiscos = [
         genero: 'rock',
         pais: 'inglaterra'
     },
+    {
+        id: '79',
+        nombre: 'Tchaikovsky: Piano concerto No.1',
+        artista: 'Pyotr Ilyich Tchaikovsky',
+        lanzamiento: '1989',
+        genero: 'clasica',
+        pais: 'alemania'
+    },{
+        id: '80',
+        nombre: 'Jolene',
+        artista: 'Dolly Parton',
+        lanzamiento: '1974',
+        genero: 'country',
+        pais: 'estados-unidos'
+    },
+    {
+        id: '81',
+        nombre: 'Grievious Angel',
+        artista: 'Gram Parsons',
+        lanzamiento: '1974',
+        genero: 'country',
+        pais: 'estados-unidos'
+    },
+    {
+        id: '82',
+        nombre: 'Determination',
+        artista: 'Sonora Ponceña',
+        lanzamiento: '1982',
+        genero: 'salsa',
+        pais: 'puerto-rico'
+    },
+    {
+        id: '83',
+        nombre: 'Alô malandragem maloca o flagrante',
+        artista: 'Bezerra da Silva',
+        lanzamiento: '1986',
+        genero: 'samba',
+        pais: 'brasil'
+    },
+    {
+        id: '84',
+        nombre: 'Lo mato',
+        artista: 'Willie Colon, Hector Lavoe',
+        lanzamiento: '1973',
+        genero: 'salsa',
+        pais: 'puerto-rico'
+    },{
+        id: '85',
+        nombre: 'Musa original',
+        artista: 'Joe Arroyo',
+        lanzamiento: '1986',
+        genero: 'salsa',
+        pais: 'colombia'
+    },
+    {
+        id: '86',
+        nombre: 'Oscar de León y su Salsa Mayor',
+        artista: 'Oscar de León',
+        lanzamiento: '1991',
+        genero: 'salsa',
+        pais: 'venezuela'
+    },
+    {
+        id: '87',
+        nombre: 'El verdadero león',
+        artista: 'Oscar de León',
+        lanzamiento: '1997',
+        genero: 'salsa',
+        pais: 'venezuela'
+    },
+    {
+        id: '88',
+        nombre: 'Giant Steps',
+        artista: 'John Coltrane',
+        lanzamiento: '1960',
+        genero: 'jazz',
+        pais: 'estados-unidos'
+    },
+    {
+        id: '89',
+        nombre: 'Kind of Blue',
+        artista: 'Miles Davis',
+        lanzamiento: '1959',
+        genero: 'jazz',
+        pais: 'estados-unidos'
+    },{
+        id: '90',
+        nombre: "Duke Ellington's Spacemen: The Cosmic Scene",
+        artista: 'Duke Ellington',
+        lanzamiento: '1958',
+        genero: 'jazz',
+        pais: 'estados-unidos'
+    },
+    {
+        id: '91',
+        nombre: 'Undercurrent',
+        artista: 'Bill Evans',
+        lanzamiento: '1962',
+        genero: 'jazz',
+        pais: 'estados-unidos'
+    },
+    {
+        id: '92',
+        nombre: 'West Coast Time',
+        artista: 'Charlie Parker',
+        lanzamiento: '1950',
+        genero: 'jazz',
+        pais: 'estados-unidos'
+    },
+    {
+        id: '93',
+        nombre: 'I forgot',
+        artista: 'Cecil Taylor',
+        lanzamiento: '1961',
+        genero: 'jazz',
+        pais: 'estados-unidos'
+    },
+    {
+        id: '94',
+        nombre: 'La Yumba',
+        artista: 'Osvaldo Pugliese',
+        lanzamiento: '1997',
+        genero: 'tango',
+        pais: 'argentina'
+    },
+    {
+        id: '95',
+        nombre: 'Primeros singles (1953-1956)',
+        artista: 'Horacio Salgán, Roberto Goyeneche',
+        lanzamiento: '2021',
+        genero: 'tango',
+        pais: 'Argentina'
+    },
+    {
+        id: '96',
+        nombre: 'Con permiso',
+        artista: 'Alberto Mastra',
+        lanzamiento: '2002',
+        genero: 'folclore',
+        pais: 'Uruguay'
+    },
+    {
+        id: '97',
+        nombre: 'Presentando a Julio Sosa',
+        artista: 'Julio Sosa',
+        lanzamiento: '1934',
+        genero: 'tango',
+        pais: 'Uruguay'
+    },
+    {
+        id: '98',
+        nombre: 'Todo Piazzolla',
+        artista: 'Astor Piazzolla',
+        lanzamiento: '1997',
+        genero: 'tango',
+        pais: 'Argentina'
+    },
+    {
+        id: '99',
+        nombre: 'Viejo Smoking',
+        artista: 'Carlos Gardel',
+        lanzamiento: '2003',
+        genero: 'tango',
+        pais: 'Argentina'
+    },
+    {
+        id: '100',
+        nombre: 'Guitarra Negra',
+        artista: 'Alfredo Zitarrosa',
+        lanzamiento: '1985',
+        genero: 'folclore',
+        pais: 'Uruguay'
+    },
+    {
+        id: '101',
+        nombre: 'Milonga madre',
+        artista: 'Alfredo Zitarrosa',
+        lanzamiento: '1970',
+        genero: 'folclore',
+        pais: 'uruguay'
+    },
+    {
+        id: '102',
+        nombre: 'Río de los pájaros',
+        artista: 'Aníbal Zampayo',
+        lanzamiento: '1963',
+        genero: 'folclore',
+        pais: 'Uruguay'
+    },
+    {
+        id: '103',
+        nombre: 'Milonga del solitario',
+        artista: 'Atahualpa Yupanqui',
+        lanzamiento: '1983',
+        genero: 'folclore',
+        pais: 'Argentina'
+    },
+    {
+        id: '104',
+        nombre: 'Gentleman',
+        artista: 'Fela Kuti',
+        lanzamiento: '1973',
+        genero: 'afro-beat',
+        pais: 'Nigeria'
+    },
+    {
+        id: '105',
+        nombre: 'Flight of the Ancients',
+        artista: 'The Shaolin Afronauts',
+        lanzamiento: '2011',
+        genero: 'afro-beat',
+        pais: 'Australia'
+    },
+    {
+        id: '106',
+        nombre: 'The Budos Band',
+        artista: 'The Budos Band',
+        lanzamiento: '2005',
+        genero: 'afro-beat',
+        pais: 'EE.UU.'
+    },
+    {
+        id: '107',
+        nombre: 'Sweet mother',
+        artista: 'Prince Nico Mbarga & Rocafill Jazz International',
+        lanzamiento: '2010',
+        genero: 'afro-beat',
+        pais: 'Nigeria'
+    },
+
+
+    
+
 
 ]
 
