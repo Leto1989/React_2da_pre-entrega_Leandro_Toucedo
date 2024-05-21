@@ -14,4 +14,13 @@
 
 .lista-discos li {
     padding: 15px;
+    font-size: 20px;
+    color: rgb(105, 35, 171);
+    background-color:rgb(233, 189, 111);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 1px;
+
 }

@@ -4,6 +4,10 @@
     margin: 20px;
     border-radius: 10px;
     background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
   }
   
   .detalle-producto h2 {
@@ -12,4 +16,8 @@
   
   .detalle-producto p {
     margin: 5px 0;
+  }
+  .detalle-producto .boton-agregar-al-carrito {
+    background-color: blue;
+    color: rgba(210, 5, 5, 0.675);
   }

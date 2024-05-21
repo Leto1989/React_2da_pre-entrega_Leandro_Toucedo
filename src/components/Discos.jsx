@@ -15,10 +15,10 @@ const mostrarDiscos = mostrarArray(arrayDiscos);
     
     <div className='lista-discos'>
       {mostrarDiscos.map((disco, id) => (
-        <div key={id} className='disco-item'>
+        <div key={disco.id} className='disco-item'>
           <h2>{disco.nombre}</h2>
           <p>{disco.artista}</p>
-          <Link to={`/producto/${disco.id}`}> Ver detalles </Link>
+          <Link to={`/producto/${disco.id}`} className='ver-detalles'> Ver detalles </Link>
         </div>
       ))}
     </div>
