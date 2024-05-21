@@ -6,7 +6,7 @@ export default function Navbar () {
     return <>
     
         <nav className="nav-style">
-            <div>
+            <div className="titulo-nav">
                 <h1> Garage Sale </h1>
             </div>
             <ul>

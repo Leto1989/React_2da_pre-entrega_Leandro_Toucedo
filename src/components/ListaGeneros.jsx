@@ -4,7 +4,7 @@ import arrayDiscos from '../data/arrayDiscos';
 import Generos from './Generos';
 import './Generos.css';
 
-const mayusculaGeneros = (string) => {
+const mayusculaInicial = (string) => {
   return string.charAt(0).toUpperCase() + string.slice(1);
 };
 const generos = [...new Set(arrayDiscos.map(disco => disco.genero))];
@@ -18,7 +18,7 @@ export default function ListaGeneros() {
       <ul>
         {generos.map((genero, index) => (
           <li key={index}>
-            <Link to={`/genero/${genero.toLowerCase()}`}>{mayusculaGeneros(genero)}</Link>
+            <Link to={`/genero/${genero.toLowerCase()}`}>{mayusculaInicial(genero)}</Link>
           </li>
         ))}
       </ul>

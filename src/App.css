@@ -15,37 +15,13 @@ h1 {
   height: 100vh;
 }
 
-.nav-style {
-  background-color: #282c34;
-  color: white;
-  width: 250px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
-}
-
-.nav-style h1 {
-  margin: 0;
-}
-
-.nav-style ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.nav-style li {
-  margin-bottom: 10px;
-}
-
 .main-content {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center ;
   flex-grow: 1;
   padding: 20px;
+  margin: 10px;
   width: 100%;
   
 }

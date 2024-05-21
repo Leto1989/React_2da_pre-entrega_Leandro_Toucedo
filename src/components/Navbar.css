@@ -20,6 +20,41 @@
     display: inline;
     position: relative;
 }
+.nav-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #04760a;
+    color: white;
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+  
+  .nav-style h1 {
+    margin: 10px;
+    padding: 5px;
+    background-color: #04760a;
+  }
+  
+  .nav-style ul {
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .nav-style li {
+    margin-bottom: 10px;
+    font-size: 25px;
+    padding: 5px;
+  }
+  
 
 .lista-generos {
     display: flex;
@@ -38,6 +73,12 @@ h1 {
 
 a {
     font-family: 'Montserrat';
+}
+
+.titulo-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .icono-carrito:hover {
