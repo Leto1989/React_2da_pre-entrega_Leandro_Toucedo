@@ -1,0 +1,17 @@
+.lista-discos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.lista-discos ul {
+    list-style-type: none;
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.lista-discos li {
+    padding: 15px;
+}

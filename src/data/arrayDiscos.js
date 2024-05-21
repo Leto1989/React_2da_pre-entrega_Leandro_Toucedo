@@ -854,9 +854,14 @@ const arrayDiscos = [
         genero: 'afro-beat',
         pais: 'Nigeria'
     },
-
-
-    
+    {
+        id: '108',
+        nombre: 'Maggot brain',
+        artista: 'Funkadelic',
+        lanzamiento: '1971',
+        genero: 'funk',
+        pais: 'EE.UU.'
+    },
 
 
 ]

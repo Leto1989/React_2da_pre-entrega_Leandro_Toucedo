@@ -14,8 +14,10 @@ function App() {
     <>
        <Router>
       <div className='app-container'>
+      
         <Navbar />
         <div className="main-content">
+        <h1> Tienda de discos </h1>
           <Routes>
             <Route path="/" element={<Discos />} />
             <Route path="/producto/:id" element={<DetalleProducto />} />
