@@ -58,7 +58,7 @@ const arrayDiscos = [
         pais: 'brasil'
     },
     {
-        id: ''8,
+        id: '8',
         nombre: 'Giros',
         artista: 'Fito Paez',
         lanzamiento: '1985',
@@ -315,7 +315,7 @@ const arrayDiscos = [
     },
     {
         id: '40',
-        nombre: 'Cada um Belisa um Pouco',
+        nombre: 'Cada um Belisca um Pouco',
         artista: 'Dominguinhos',
         lanzamiento: '2003',
         genero: 'forro',
